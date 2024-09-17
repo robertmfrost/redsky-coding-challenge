@@ -1,7 +1,7 @@
 # Time Tracking
-- 10:45am - 12:00pm (1h 15m) - server/client setup for local production
-- 12:00pm - 12:15pm (15m) - populate basic user list from proper backend API call
-- 12:15pm - 12:30pm (15m) - successfully delete a user via button click
+- 10:45am - 12:00pm (1h 15m) - server/client setup for local development
+- 12:00pm - 12:15pm (15m) - populated basic user list from backend API call
+- 12:15pm - 12:30pm (15m) - successfully deleted a user via button click
 - 12:30pm - 12:50pm (20m) - began work on modals and modal state
 - 12:50pm - 1:00pm (10m) - lunch break
 - 1:00pm - 2:30pm (1h 30m) - finished figuring out modal state and stores for a singular modal shared across the whole app

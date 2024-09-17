@@ -1,0 +1,32 @@
+{
+  "name": "redsky-coding-challenge",
+  "version": "1.0.0",
+  "description": "Robert Frost's attempt at the RedSky coding challenge as part of the interview process for the Senior Software Engineer position at RedSky.",
+  "main": "index.js",
+  "scripts": {
+    "client-install": "cd client && npm install",
+    "start": "node server/index.js",
+    "serve:server": "nodemon server/index.js",
+    "serve:client": "cd client && npm run dev",
+    "dev": "concurrently \"npm run serve:server\" \"npm run serve:client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertmfrost/redsky-coding-challenge.git"
+  },
+  "author": "Robert Frost",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/robertmfrost/redsky-coding-challenge/issues"
+  },
+  "homepage": "https://github.com/robertmfrost/redsky-coding-challenge#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "body-parser": "^1.20.3",
+    "concurrently": "^9.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "nodemon": "^3.1.4"
+  }
+}

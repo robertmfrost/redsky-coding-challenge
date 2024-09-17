@@ -1,3 +1,11 @@
+# Running Locally
+    git clone https://github.com/robertmfrost/redsky-coding-challenge.git
+    npm install
+    npm run client-install
+    npm run dev
+
+You can then visit the client through http://localhost:5173/
+
 # Time Tracking
 - 10:45am - 12:00pm (1h 15m) - server/client setup for local development
 - 12:00pm - 12:15pm (15m) - populated basic user list from backend API call
